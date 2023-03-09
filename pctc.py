@@ -32,4 +32,20 @@ if (k=="*"):
     print(n*x)
 elif (k=="+"):
     print(n+x)
+  
+#round 1 demo 6
+names = []
+for i in range(5):
+    names.append(input())
+position = names.index("Ellie") + 1
+if position == 1:
+    print("1st")
+elif position == 2:
+    print("2nd")
+elif position == 3:
+    print("3rd")
+elif position == 4:
+    print("4th")
+else:
+    print("5th")
     
